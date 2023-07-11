@@ -9,7 +9,7 @@
  */
 
 import parseURL from "@/util/parseURL"
-import RequestBody from "./types/RequestBody"
+import RequestBody from "@/types/RequestBody"
 
 export interface Env {
 	// Example binding to KV. Learn more at https://developers.cloudflare.com/workers/runtime-apis/kv/

@@ -1,9 +1,8 @@
-import ResponseBody from "@/types/ResponseBody"
 import ParsedLocation from "@/types/ParsedLocation"
 import * as AppleMaps from "@/util/AppleMaps"
 import * as GoogleMaps from "@/util/GoogleMaps"
 
-const parseURL = (url: string): ResponseBody | undefined => {
+const parseURL = (url: string): ParsedLocation | undefined => {
 	const _url = new URL(url)
 	switch (_url.host.toLowerCase()) {
 	case "google.com":

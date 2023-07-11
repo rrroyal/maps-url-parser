@@ -1,10 +1,5 @@
-type ResponseBody = {
-	appleMapsURL?: string
-	googleMapsURL?: string
+import ParsedLocation from "@/types/ParsedLocation"
 
-	label?: string
-	latitude?: number
-	longitude?: number
-}
+type ResponseBody = ParsedLocation
 
 export default ResponseBody

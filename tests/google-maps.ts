@@ -1,4 +1,4 @@
-import { parseURL, getURL } from "../src/util/GoogleMaps"
+import { parseURL, getURL } from "@/util/GoogleMaps"
 
 const EXPECTED_RESULT = {
 	label: "New York City",

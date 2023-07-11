@@ -1,4 +1,4 @@
-import ParsedLocation from "../types/ParsedLocation"
+import ParsedLocation from "@/types/ParsedLocation"
 
 export function parseURL(url: string): ParsedLocation | undefined {
 	const _url = new URL(url)

@@ -1,4 +1,5 @@
-import parseURL from "./util/parseURL"
+import parseURL from "@/util/parseURL"
 
-const url = "YOUR_URL_HERE"
+const url = ""
 const parsed = parseURL(url)
+console.log(parsed)
